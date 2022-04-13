@@ -1,0 +1,30 @@
+@import './abstract/colors';
+@import 'reset';
+
+.light {
+  .text {
+    color: $primary;
+  }
+
+  .container-bg {
+    background-color: $secondary;
+  }
+}
+
+.dark {
+  .text {
+    color: $secondary;
+  }
+
+  .container-bg {
+    background-color: $primary;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
